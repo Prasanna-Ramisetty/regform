@@ -1,0 +1,67 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <header>
+          <center><b>Rigistration Form</b></center>
+        </header>
+        <form action="Submit.html" method="get">
+        <table cellspacing="8">
+            <tr>
+                <td><label for="fn">First Name : </label>
+                    <input type="text" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td><label for="ln">Last Name : </label>
+                    <input type="text" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email : </label>
+                    <input type="email" placeholder="Enter Email Address"></td>
+            </tr>
+            <tr>
+                <td><label for="pw">Password : </label>
+                    <input type="password" ></td>
+            </tr>
+            <tr>
+                <td><label for="gn">Gender : </label> 
+                <input type="radio" id="male" name="gn" required value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age : </label>
+                <input type="number" id="age" min="10" max="120"></td>
+            </tr>
+            <tr>
+                <td><label for="pre">Preferences : </label>
+                <input type="checkbox" name="preferences" value="acrylic">Acrylic painting
+                <input type="checkbox" name="preferences" value="acrylic">Oil painting
+                <input type="checkbox" name="preferences" value="acrylic">Water Coloring</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="Occupation">Occupation : </label>
+                    <select id="Occupation" name="occupation">
+                        <option>Student</option>
+                        <option>Employed</option>
+                        <option>Self-Employed</option>
+                        <option>Unemployed</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="bio">Bio : </label>
+                    <textarea id="bio" name="bio" rows="5" cols="40" placeholder="Share Few lines about yourself..."></textarea>
+                </td>
+            </tr>
+        </table>
+                <input type="reset" value="RESET">
+                <input type="submit" value="SUBMIT">
+        </form>
+    </body>
+</html>
